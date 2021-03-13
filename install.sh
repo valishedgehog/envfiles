@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd "$(dirname "$0")"
+
 sudo apt install git curl -y
 
 function alacritty() {
