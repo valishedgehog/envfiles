@@ -1,0 +1,37 @@
+export ZSH="/home/anton/.oh-my-zsh"
+
+ZSH_THEME="edvardm"
+
+export UPDATE_ZSH_DAYS=7
+
+ENABLE_CORRECTION="true"
+
+HIST_STAMPS="dd.mm.yyyy"
+
+plugins=(
+  git
+  zsh-autosuggestions
+)
+
+source $ZSH/oh-my-zsh.sh
+
+######################
+# User configuration #
+######################
+
+# Always run zsh in tmux if it is installed
+if which tmux 2>&1 >/dev/null; then
+  if [ $TERM != "screen-256color" ] && [  $TERM != "screen" ]; then
+    tmux attach -t hack || tmux new -s hack; exit
+  fi
+fi
+
+export MANPATH="/usr/local/man:$MANPATH"
+export LANG=ru_RU.UTF-8
+
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='nvim'
+fi
