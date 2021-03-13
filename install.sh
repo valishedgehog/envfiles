@@ -7,7 +7,7 @@ sudo apt install git curl -y
 function alacritty() {
   sudo add-apt-repository ppa:mmstick76/alacritty -y
   sudo apt update
-  sudo apt install alacritty wmctrl -y
+  sudo apt install alacritty wmctrl fonts-hack -y
   mkdir -p ~/.config/alacritty
   cp ./configs/alacritty.yml ~/.config/alacritty/alacritty.yml
 }
