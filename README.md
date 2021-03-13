@@ -6,7 +6,6 @@ My linux environment files, notes and scripts
 
 ## Todo
 - Tmux configuration
-- Neovim configuration
 - fzf configuration + integration in neovim and zsh
 - ranger configuration
 
@@ -14,4 +13,5 @@ My linux environment files, notes and scripts
 - Sync script
 - Install script
 - Zsh install and configuration
-- alacritty terminal install and configuration
+- Alacritty terminal install and configuration
+- Basic neovim configuration

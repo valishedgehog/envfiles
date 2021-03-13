@@ -2,7 +2,6 @@
 
 sudo apt install git curl -y
 
-# Alacritty terminal
 function alacritty() {
   sudo add-apt-repository ppa:mmstick76/alacritty -y
   sudo apt update
@@ -11,7 +10,6 @@ function alacritty() {
   cp ./configs/alacritty.yml ~/.config/alacritty/alacritty.yml
 }
 
-# ZSH + oh-my-zsh
 function zsh() {
   sudo apt install zsh -y
   cp ./configs/zshrc ~/.zshrc
@@ -19,5 +17,13 @@ function zsh() {
   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 }
 
-alacritty
-zsh
+function neovim() {
+  sudo apt install neovim python3-neovim -y
+  curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+  sh ./installer.sh ~/.cache/dein
+  rm -rf installer.sh
+  mkdir -p ~/.config/nvim
+  cp ./configs/init.vim ~/.config/nvim/init.vim
+}
+
+alacritty; zsh; neovim;
