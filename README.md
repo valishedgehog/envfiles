@@ -4,7 +4,8 @@ My environment files, notes and scripts
 
 Notes:
 - [Several linux tweaks (sound, ssd optimization)](./notes/tweaks.md)
-- [Android SSL Pinning bypass with Frida](./notes/android-ssl.md)
+- [Android SSL Pinning bypass with Frida (RU)](./notes/android-ssl.md)
+- [Windows 10 tips and tricks (RU)](./notes/windows.md)
 
 ## Todo
 - Tmux configuration
