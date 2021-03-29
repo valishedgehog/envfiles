@@ -1,6 +1,6 @@
-# Linux environment files
+# Environment files
 
-My linux environment files, notes and scripts
+My environment files, notes and scripts
 
 Notes:
 - [Several linux tweaks (sound, ssd optimization)](./notes/tweaks.md)
@@ -10,6 +10,8 @@ Notes:
 - Tmux configuration
 - fzf configuration + integration in neovim and zsh
 - ranger configuration
+- wsl configuration (automount, host and port forwarding)
+- windows terminal configuration
 
 ## Done
 - Sync script
