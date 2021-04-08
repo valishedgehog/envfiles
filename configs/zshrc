@@ -1,6 +1,6 @@
 export ZSH="/home/anton/.oh-my-zsh"
 
-ZSH_THEME="edvardm"
+ZSH_THEME="clean"
 
 export UPDATE_ZSH_DAYS=7
 
