@@ -17,6 +17,24 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 
 Ссылка на документацию: [клац](https://github.com/microsoft/winget-cli/blob/master/doc/Settings.md)
 
+## Настройка Elantech тачпада
+Включаем имитацию правой кнопки мыши на двойной клик
+
+```Win + R``` => ```regedit```
+
+Находим путь ```HKEY_CURRENT_USER\SOFTWARE\Elantech\SmartPad```
+
+```
+Tap_Two_Finger = 1
+Tap_Two_Finger_Enable = 1
+```
+
+!НЕ НАЖИМАЯ ПРАВУЮ КНОПКУ! перезагружаемся
+
+Для улучшения позиционирования курсора:
+
+Параметры => Устройства => Сенсорная панель => Дополнительные параметры => Параметры указателя => убираем галочку "Включить повышенную точность установки указателя"
+
 ## Полезные ссылки
 - [Windows Packet Manager (winget)](https://github.com/microsoft/winget-cli)
 - [Win10Tweaker](https://win10tweaker.pro/)
