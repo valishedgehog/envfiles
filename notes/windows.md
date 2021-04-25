@@ -15,6 +15,12 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 %LOCALAPPDATA%\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
 ```
 
+## Windows Terminal
+Скопировать файл настроек ```windows/windows-terminal.json``` по пути
+```
+%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+```
+
 Ссылка на документацию: [клац](https://github.com/microsoft/winget-cli/blob/master/doc/Settings.md)
 
 ## Настройка Elantech тачпада

@@ -10,9 +10,7 @@ Notes:
 ## Todo
 - Tmux configuration
 - fzf configuration + integration in neovim and zsh
-- ranger configuration
 - wsl configuration (automount, host and port forwarding)
-- windows terminal configuration
 
 ## Done
 - Sync script
@@ -20,3 +18,4 @@ Notes:
 - Zsh install and configuration
 - Alacritty terminal install and configuration
 - Basic neovim configuration
+- windows terminal configuration
