@@ -35,6 +35,16 @@ Tap_Two_Finger_Enable = 1
 
 Параметры => Устройства => Сенсорная панель => Дополнительные параметры => Параметры указателя => убираем галочку "Включить повышенную точность установки указателя"
 
+Убрать бешенный скроллинг:
+
+```Win + R``` => ```regedit```
+
+Находим путь ```HKEY_CURRENT_USER\SOFTWARE\Elantech\SmartPad```
+
+```
+ScrollControl_Mode = 1
+```
+
 ## Полезные ссылки
 - [Windows Packet Manager (winget)](https://github.com/microsoft/winget-cli)
 - [Win10Tweaker](https://win10tweaker.pro/)
